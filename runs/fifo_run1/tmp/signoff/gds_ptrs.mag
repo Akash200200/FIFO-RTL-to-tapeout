@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 39753 41897
+string GDS_END 2341970
+string GDS_FILE /work/designs/fifo/runs/fifo_run1/results/signoff/FIFO.magic.gds
+string GDS_START 441436
+<< end >>
