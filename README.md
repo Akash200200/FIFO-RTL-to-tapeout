@@ -1,13 +1,13 @@
 # FIFO RTL to GDSII using OpenLane (SKY130)
 
-## 📌 Overview
+## Overview
 This project demonstrates a complete digital ASIC design flow, starting from RTL design and functional verification of a FIFO (First-In-First-Out) buffer, and ending with physical layout generation (GDSII) using an open-source toolchain.
 
 The goal of this project was to understand and implement the full **RTL → GDSII** flow, including synthesis, placement, routing, and timing analysis.
 
 ---
 
-## 🧠 What This Project Covers
+## What This Project Covers
 
 - RTL design of a synchronous FIFO
 - Functional verification using simulation
@@ -18,7 +18,7 @@ The goal of this project was to understand and implement the full **RTL → GDSI
 
 ---
 
-## 🏗️ Design Details
+## Design Details
 
 ### FIFO Specifications
 - Parameterizable depth and data width
@@ -35,7 +35,7 @@ The goal of this project was to understand and implement the full **RTL → GDSI
 
 ---
 
-## 🧪 Functional Verification
+## Functional Verification
 
 The FIFO was verified using simulation (ModelSim).
 
@@ -53,7 +53,7 @@ Waveforms were analyzed to confirm:
 
 ---
 
-## ⚙️ ASIC Flow (RTL → GDSII)
+## ASIC Flow (RTL → GDSII)
 
 The design was implemented using the OpenLane flow with the SKY130 PDK.
 
@@ -75,7 +75,7 @@ The design was implemented using the OpenLane flow with the SKY130 PDK.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 designs/fifo/
 │
@@ -101,16 +101,16 @@ designs/fifo/
 
 ---
 
-## 📊 Results
+## Results
 
-### ✅ Flow Status
+### Flow Status
 - Flow completed successfully
 
-### ⏱ Timing
+### Timing
 - No setup violations
 - No hold violations
 
-### ⚠️ Warnings
+### Warnings
 - Max fanout violations observed
 - Default SDC used for PnR and signoff
 
@@ -118,7 +118,7 @@ designs/fifo/
 
 ---
 
-## 🧾 Key Output Files
+## Key Output Files
 
 | File | Description |
 |------|------------|
@@ -129,7 +129,7 @@ designs/fifo/
 
 ---
 
-## 🛠️ Tools & Resources Used
+## Tools & Resources Used
 
 - OpenLane (ASIC flow automation)
 - SKY130 PDK (open-source process design kit)
@@ -141,7 +141,7 @@ designs/fifo/
 
 ---
 
-## 📚 Key Learnings
+## Key Learnings
 
 ### Technical
 - Complete understanding of ASIC design flow
@@ -158,7 +158,7 @@ designs/fifo/
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add assertions and self-checking testbench (scoreboard)
 - Improve SDC constraints for better timing control
@@ -168,13 +168,13 @@ designs/fifo/
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 This project successfully demonstrates a full open-source ASIC design flow from RTL to GDSII. It serves as a foundational step toward designing more complex digital systems such as processors and SoCs.
 
 ---
 
-## 📎 Author
+## Author
 
 Akash Biyani  
 Master’s Student – Embedded Computing Systems  
